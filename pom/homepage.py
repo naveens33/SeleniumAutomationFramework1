@@ -14,7 +14,7 @@ class HomePage(BasePage, Exception):
         pass
 
     def click_sign_in_button(self):
-        ele = self.signin_button.find_element()
+        ele = self.signin_button.find_element().click()
         pass
         # self._click(self._sign_in_button)
 

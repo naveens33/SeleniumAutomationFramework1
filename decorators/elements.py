@@ -14,6 +14,6 @@ def elements(selector_cls):
                     pass
             prop = property(get_attr)
             setattr(pom_cls,test_id,prop)
-        pom_cls.CONFIG = selector_cls.CONFIG()
+        #pom_cls.CONFIG = selector_cls.CONFIG()
         return pom_cls
     return deco
