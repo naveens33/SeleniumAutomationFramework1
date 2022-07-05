@@ -7,4 +7,4 @@ class Home_Selectors():
     }
 
     class CONFIG:
-        pass
+        cls = "class"
